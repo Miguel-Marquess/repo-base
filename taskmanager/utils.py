@@ -7,5 +7,10 @@ def format_task(task):
 def filter_tasks(tasks, show_done=True):
     if show_done:
         return tasks
-    return [t for t in tasks if not t["done"]]
+
+    return [
+        t for t in tasks
+        if not t["done"]
+    ]
+
     
