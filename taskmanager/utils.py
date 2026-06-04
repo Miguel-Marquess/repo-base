@@ -10,7 +10,6 @@ def filter_tasks(tasks, show_done=True):
 
     return [
         t for t in tasks
-        if not t["done"]
+        if not t["done"] and t["priority"] != "low"
     ]
-
     
