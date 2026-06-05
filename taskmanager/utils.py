@@ -1,3 +1,4 @@
+# Formata a exibição de uma tarefa no terminal
 def format_task(task):
     status = "[x] ✅" if task["done"] else "[ ] ⏳"
     priority = task['priority'].upper()
