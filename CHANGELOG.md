@@ -17,4 +17,4 @@
 - Mensagens de commit revisadas para seguir padrão semântico
 
 ### Fixed
-- Correção do bug em filter_tasks que retornava lista vazia quando show_done=False
+- Correção do bug hotfix na main, onde foi adicionado o return na função format_task.
