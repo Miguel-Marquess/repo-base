@@ -1,11 +1,9 @@
-# Formata a exibição de uma tarefa no terminal
 def format_task(task):
     status = "[x] ✅" if task["done"] else "[ ] ⏳"
     priority = task['priority'].upper()
     title = task['title'].capitalize()
     tag = f" #{task['tag']}" if task.get('tag') else ""
-    length = f" ({len(task['title'])} chars)"
-    return f"{status} [{priority}] #{task['id']} - {title}{tag}{length}"
+    return f"{status} [{priority}] #{task['id']} - {title}{tag}"
     
 def filter_tasks(tasks, show_done=True, min_priority=None):
     if show_done:
