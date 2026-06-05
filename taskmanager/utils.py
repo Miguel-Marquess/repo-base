@@ -4,7 +4,7 @@ def format_task(task):
     title = task['title'].capitalize()
     tag = f" #{task['tag']}" if task.get('tag') else ""
     length = f" ({len(task['title'])} chars)"
-    return f"{status} [{priority}] #{task['id']} - {title}{tag}{length}"
+
     
 def filter_tasks(tasks, show_done=True, min_priority=None):
     if show_done:
