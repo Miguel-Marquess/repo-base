@@ -1,14 +1,13 @@
 # Changelog
 
-Todas as mudanças notáveis deste projeto serão documentadas aqui.
+## [1.0.0] - 2026-06-05
 
-O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
-
----
-
-## [Unreleased]
-
-## [1.0.0] - YYYY-MM-DD
 ### Added
+- Suporte a tags na exibição de tarefas no format_task
+- Exibição de status concluído com emoji no format_task
+- Contagem de caracteres no título da tarefa
+
 ### Changed
-### Fixed
+- Prioridade exibida em maiúsculas no format_task
+- Título da tarefa capitalizado no format_task
+
